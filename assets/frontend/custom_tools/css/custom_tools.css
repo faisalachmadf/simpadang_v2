@@ -1,0 +1,305 @@
+/* ============================================ Theme Customizer  ============================================ */
+
+.swpRightPosButton {
+	background:rgba(0,0,0,0.3);
+	color:rgba(255,255,255,0.7);
+	cursor: pointer;
+	display: block;
+	height:40px;
+	line-height:44px;
+	margin:-20px 0 0;
+	position:fixed;
+	text-align:center;
+	top: 135px; 
+	right: 0;
+	width:40px;
+	z-index: 9999;
+}
+.admin-bar .swpRightPosButton{top:142px;}
+
+.swpRightPosButton span { display: inline-block; line-height:19px; font-size:18px; width:18px; height:18px; }
+.swpRightPosButton span:before {margin:0; line-height:inherit; font-size:18px; }
+
+.swpRightPos .sc_tabs { height:100%;}
+
+.admin-bar .swpRightPos { padding-top:32px; }
+
+/*swpRightPos*/
+.swpRightPos .tabsMenuHead{ height: 64px; padding: 0; margin: 0; background-color:#ffffff;}
+.swpRightPos .tabsMenuHead li{ display: block; float: left; list-style: none; height: 64px; width: 25%;}
+.swpRightPos .tabsMenuHead li a{ display: block; height: 64px; background: #fff;}
+.swpRightPos .tabsMenuHead li.ui-tabs-active a{ background-color: #f6f6f6;}
+.swpRightPos .tabsMenuHead li a:before{ display: block; height: 64px; text-align: center; line-height: 64px; font-family: "fontello"; font-size: 17px;}
+
+.swpRightPos .tabsMenuHead li a.tabsCustom:before{ content: '\e837'; }
+.swpRightPos .tabsMenuHead li a.tabsWidget:before{ content: '\e888'; }
+.swpRightPos .tabsMenuHead li a.tabsMenu:before{ content: '\e889';}
+.swpRightPos .tabsMenuHead li a.tabsFavorite:before{ content: '\e81e'; }
+
+.swpRightPos .tabsMenuBody { padding: 20px; box-sizing: border-box; -moz-box-sizing: border-box; }
+.swpRightPos .tabsMenuBody .sc_scroll_vertical { height:100%; padding-right:10px; }
+
+.sidebar.sidebar_panel { width:100%; height:100%; padding: 0; }
+.sidebar.sidebar_panel .widgetWrap { padding-bottom: 15px; margin-bottom:15px; border-bottom:1px solid #c9c9c9; }
+.sidebar.sidebar_panel .widgetWrap .title { padding-bottom: 16px; }
+.sidebar.sidebar_panel .widgetWrap ul > li { padding-bottom:10px; }
+
+.sidebar.sidebar_panel #sc_calendar th, .sidebar.sidebar_panel #sc_calendar td,
+.sidebar.sidebar_panel .sc_calendar th, .sidebar.sidebar_panel .sc_calendar td { height: 30px; }
+
+.sidebar.sidebar_panel .instagram-pics li,
+.sidebar.sidebar_panel .widget_flickr .flickr_badge_image,
+.sidebar.sidebar_panel .widget_flickr .flickr_images > a { width: 65px; }
+
+.swpRightPos .panelmenu_area > ul > li{ border-bottom: 1px solid #c9c9c9;}
+.swpRightPos .panelmenu_area > ul { margin: 0; padding: 0; }
+.swpRightPos .panelmenu_area ul li{ list-style: none; }
+
+.swpRightPos .panelmenu_area li.dropMenu:hover { cursor: pointer; }
+.swpRightPos .panelmenu_area li.dropMenu:before{ content: '\e85d';  font-family: "fontello";  width: 40px; display: block; float: right; padding: 7px 0 0 0 ; text-align: center; color: #505050}
+.swpRightPos .panelmenu_area li.dropMenu.dropOpen:before{ content: '\e85e';}
+.swpRightPos .panelmenu_area li.dropMenu a{ margin: 0 40px 0 0 ; }
+
+.swpRightPos .panelmenu_area > ul > li > a { text-transform: uppercase; display: block; color: #505050; padding: 10px 15px 10px 30px; font-weight: 300; font-size: 12px; }
+.swpRightPos .panelmenu_area ul li > a.sf-with-ul{ margin: 0 40px 0 0 ;}
+.swpRightPos .panelmenu_area ul li ul{ background: #fff; padding: 0; margin: 0; display: none; }
+.swpRightPos .panelmenu_area ul li ul,
+.swpRightPos .panelmenu_area ul li ul li + li{ border-top: 1px solid #c9c9c9;}
+.swpRightPos .panelmenu_area ul li ul li a{ color: #505050; font-weight: 300; display: block; padding: 6px 15px 6px 42px; font-size: 13px;}
+.swpRightPos .panelmenu_area ul li ul li ul li a{ padding: 6px 15px 6px 54px; font-size: 12px;}
+
+.swpRightPos .searchBlock { position: relative; border:1px solid #c9c9c9;  margin:40px 30px; height: 30px;}
+.swpRightPos .searchBlock .searchField{ height:30px; line-height: 30px; width: 80%; background:none; border:none; margin: 0 ; padding: 0 0 0 10px; color:#888888; position:absolute; left:0; top:0; font-weight: 300; }
+.swpRightPos .searchBlock .searchField:focus{ color:#666666;}
+.swpRightPos .searchBlock .searchSubmit{ width:30px; height:30px;  border:none; background: none; padding:0px; cursor:pointer; position:absolute; right:0; top:0;}
+.swpRightPos .searchBlock .searchSubmit:before{ font-family: "fontello"; content: '\e83f'; font-size:16px; color: #888888; line-height:30px; width:30px; height:30px; display:block; position:absolute; z-index:4; right: 0; top: 0;} 
+
+
+/* Bookmarks area */
+.swpRightPos .addBookmark { height:50px; line-height:50px; font-size:23px; color: #919191; display:block; position:relative; border:1px solid #dddddd; background-color:#fafafa; text-align:center; padding-left:30px; margin:0 0 20px 0; }
+.swpRightPos .addBookmark:before { content: '+'; height:50px; line-height:50px; font-size:30px; color: #919191; display:block; position:absolute; left: 16px; }
+.swpRightPos .listBookmarks { margin: 0; padding: 0 20px 0 30px; color:#222222; }
+.swpRightPos .listBookmarks > li { position:relative; }
+.swpRightPos .listBookmarks > li + li { margin-top: 6px; }
+.swpRightPos .listBookmarks > li .delBookmark { position:absolute; width:20px; height:20px; line-height:20px; right: -20px; top:50%; margin-top:-10px; }
+.swpRightPos .listBookmarks > li a { color:#222222; }
+
+
+#custom_options .co_header {
+	position:relative;
+}
+#custom_options .co_reset_to_default {
+	position:absolute;
+	display:block;
+	width: 20px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	-webkit-border-radius: 100%; -moz-border-radius:  100%; border-radius: 100%;
+	color:#222222;
+	right:0;
+	top: 12px;
+}
+#custom_options .co_reset_to_default:before {
+	position:static;
+	font-size:inherit;
+	line-height:inherit;
+	margin:0;
+	padding:0;
+}
+#custom_options .co_header .co_title {
+	font-weight:400;
+	padding-top: 12px;
+}
+#custom_options .co_options .co_form_row {
+	padding:16px 0;
+	border-top:1px solid #c9c9c9;	
+	position:relative;
+	overflow:hidden;
+}
+#custom_options .co_options .co_form_subrow {
+	padding-top:4px;
+}
+#custom_options .co_options .co_form_subrow:first-child {
+	padding-top:10px;
+}
+#custom_options .co_options .co_form_row .co_label {
+	display:inline-block;
+	padding-bottom:4px;
+	font-weight:400;
+	color: #222222;
+}
+#custom_options .co_options .co_form_row .co_label.one_row {
+	font-weight:300;
+}
+
+[id^="collorpicker"] {
+	z-index:9999;
+}
+
+#custom_options .co_options .co_switch_box {
+	margin-top:6px;
+}
+#custom_options .co_options .co_switch_box a {
+	color:#222222;
+}
+#custom_options .co_options .co_switch_box .co_switch_label,
+#custom_options .co_options .co_switch_box .switcher,
+#custom_options .co_options .co_switch_box .switcher2 {
+	display:inline-block;
+	float: left;
+	height:29px;
+	line-height:29px;
+	margin-right:10px;
+}
+#custom_options .co_options .co_switch_box .boxed,
+#custom_options .co_options .co_switch_box .fon {
+	margin-right:0;
+}
+#custom_options .co_options .co_switch_box .switcher,
+#custom_options .co_options .co_switch_box .switcher2 {
+	width: 80px;
+	height: 30px;
+	background-color:#888888;
+	position:relative;
+	-webkit-border-radius: 1000px !important; -moz-border-radius:  1000px !important; border-radius: 1000px !important;
+}
+#custom_options .co_options .co_switch_box .switcher a,
+#custom_options .co_options .co_switch_box .switcher2 a {
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+	margin: 3px;
+	width:24px;
+	height:24px;
+	-webkit-border-radius: 100%; -moz-border-radius:  100%; border-radius: 100%;
+	background-color:#e2e2e2;
+}
+#custom_options .co_options #co_bg_color.colorSelector {
+	left: 150px;
+	top:18px;
+}
+#custom_options .co_options #co_bg_pattern_list,
+#custom_options .co_options #co_bg_images_list {
+	margin-top:6px;
+}
+#custom_options .co_options .co_pattern_wrapper {
+	display:block;
+	border:1px solid #888888;
+	border-radius:1px;
+	-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:    0px 1px 1px rgba(0, 0, 0, 0.5);
+	box-shadow:         0px 1px 1px rgba(0, 0, 0, 0.5);	
+	width:24px;
+	height:24px;
+	padding:2px;
+	float:left;
+	margin:0 8px 8px 0;
+	background-color:#dddddd;
+}
+#custom_options .co_options #co_bg_pattern_list a img {
+	border:1px solid #666666;
+	width:22px;
+	height:22px;
+}
+#custom_options .co_options #co_bg_images_list a.current,
+#custom_options .co_options #co_bg_pattern_list a.current {
+}
+#custom_options .co_options .co_image_wrapper {
+	display:block;
+	border:1px solid #888888;
+	border-radius:1px;
+	-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:    0px 1px 1px rgba(0, 0, 0, 0.5);
+	box-shadow:         0px 1px 1px rgba(0, 0, 0, 0.5);	
+	width:50px;
+	height:30px;
+	padding:2px;
+	float:left;
+	margin: 0 7px 7px 0;
+	background-color:#dddddd;
+}
+#custom_options .co_options #co_bg_images_list a img {
+	border:1px solid #666666;
+	width:48px;
+	height:28px;
+}
+
+.iColorPicker {
+	display:inline-block;
+    position: relative;
+    width: 21px;
+    height: 21px;
+    background: url(../images/colorpicker.png);
+	vertical-align:top;
+	margin-left:0;
+	margin-right:5px;
+	cursor:pointer;
+}
+.iColorPicker_moreColors {
+	display:inline-block;
+    width: 14px;
+    height: 14px;
+	margin-left:2px;
+    background: url(../images/colorpicker_morecolors.png);
+	vertical-align:middle;
+}
+table.colorPickerTable td,
+table.colorPickerTable th { padding: 0 !important; }
+
+/* Predefined classes for the background texture and/or image */
+.texture_bg_1  { background-image:url(../images/bg/texture_1.png); }
+.texture_bg_2  { background-image:url(../images/bg/texture_2.png); }
+.texture_bg_3  { background-image:url(../images/bg/texture_3.png); }
+.texture_bg_4  { background-image:url(../images/bg/texture_4.png); }
+.texture_bg_5  { background-image:url(../images/bg/texture_5.png); }
+.texture_bg_6  { background-image:url(../images/bg/texture_6.png); }
+.texture_bg_7  { background-image:url(../images/bg/texture_7.png); }
+.texture_bg_8  { background-image:url(../images/bg/texture_8.png); }
+.texture_bg_9  { background-image:url(../images/bg/texture_9.png); }
+.texture_bg_10 { background-image:url(../images/bg/texture_10.png); }
+.texture_bg_11 { background-image:url(../images/bg/texture_11.png); }
+.texture_bg_12 { background-image:url(../images/bg/texture_12.png); }
+
+.overlay_bg_1:after  { content:' '; position:absolute; left:0; top:0; right:0; bottom:0; background-image:url(../images/bg/texture_1.png); }
+.overlay_bg_2:after  { content:' '; position:absolute; left:0; top:0; right:0; bottom:0; background-image:url(../images/bg/texture_2.png); }
+.overlay_bg_3:after  { content:' '; position:absolute; left:0; top:0; right:0; bottom:0; background-image:url(../images/bg/texture_3.png); }
+.overlay_bg_4:after  { content:' '; position:absolute; left:0; top:0; right:0; bottom:0; background-image:url(../images/bg/texture_4.png); }
+.overlay_bg_5:after  { content:' '; position:absolute; left:0; top:0; right:0; bottom:0; background-image:url(../images/bg/texture_5.png); }
+.overlay_bg_6:after  { content:' '; position:absolute; left:0; top:0; right:0; bottom:0; background-image:url(../images/bg/texture_6.png); }
+.overlay_bg_7:after  { content:' '; position:absolute; left:0; top:0; right:0; bottom:0; background-image:url(../images/bg/texture_7.png); }
+.overlay_bg_8:after  { content:' '; position:absolute; left:0; top:0; right:0; bottom:0; background-image:url(../images/bg/texture_8.png); }
+.overlay_bg_9:after  { content:' '; position:absolute; left:0; top:0; right:0; bottom:0; background-image:url(../images/bg/texture_9.png); }
+.overlay_bg_10:after  { content:' '; position:absolute; left:0; top:0; right:0; bottom:0; background-image:url(../images/bg/texture_10.png); }
+.overlay_bg_11:after  { content:' '; position:absolute; left:0; top:0; right:0; bottom:0; background-image:url(../images/bg/texture_11.png); }
+
+.bg_pattern_1 { background: url(../images/bg/pattern_1.png) 50% 50% repeat fixed;}
+.bg_pattern_2 { background: url(../images/bg/pattern_2.png) 50% 50% repeat fixed;}
+.bg_pattern_3 { background: url(../images/bg/pattern_3.png) 50% 50% repeat fixed;}
+.bg_pattern_4 { background: url(../images/bg/pattern_4.png) 50% 50% repeat fixed;}
+.bg_pattern_5 { background: url(../images/bg/pattern_5.png) 50% 50% repeat fixed;}
+.bg_pattern_6 { background: url(../images/bg/pattern_6.png) 50% 50% repeat fixed;}
+.bg_pattern_7 { background: url(../images/bg/pattern_7.png) 50% 50% repeat fixed;}
+.bg_pattern_8 { background: url(../images/bg/pattern_8.png) 50% 50% repeat fixed;}
+.bg_pattern_9 { background: url(../images/bg/pattern_9.png) 50% 50% repeat fixed;}
+.bg_pattern_0 { background: url(../images/bg/pattern_0.png) 50% 50% repeat fixed;}
+
+.bg_image_1 { background: url(../images/bg/image_1.jpg) 50% 0% repeat-y fixed;}
+.bg_image_2 { background: url(../images/bg/image_2.jpg) 50% 0% repeat-y fixed;}
+.bg_image_3 { background: url(../images/bg/image_3.jpg) 50% 0% repeat-y fixed;}
+.bg_image_4 { background: url(../images/bg/image_4.jpg) 50% 0% repeat-y fixed;}
+.bg_image_5 { background: url(../images/bg/image_5.jpg) 50% 0% repeat-y fixed;}
+.bg_image_6 { background: url(../images/bg/image_6.jpg) 50% 0% repeat-y fixed;}
+.bg_image_1,
+.bg_image_2,
+.bg_image_3,
+.bg_image_4,
+.bg_image_5,
+.bg_image_6 {
+			background-size: 100% auto; 
+	-webkit-background-size: 100% auto; 
+	     -o-background-size: 100% auto; 
+	   -moz-background-size: 100% auto;
+}
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div id="modal-rev" class="modal fade" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="blue bigger"> Judul Modal </h4>
+				</div>
+
+				<div class="modal-body">
+					<!-- ISI CONTEN -->
+				</div>
+
+				<div class="modal-footer">
+					<button class="btn btn-sm" data-dismiss="modal">
+						<i class="ace-icon fa fa-arrow-left"></i>
+						Kembali
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

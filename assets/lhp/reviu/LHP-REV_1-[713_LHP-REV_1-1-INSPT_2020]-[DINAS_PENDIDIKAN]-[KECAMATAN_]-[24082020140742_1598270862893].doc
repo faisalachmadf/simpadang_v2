@@ -1,0 +1,41 @@
+
+<html>
+  <head>
+    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=Windows-1252\">
+    <style>
+    	.c {text-align: center}
+      .b {font-weight: bold}
+
+      #kop_header1 {border-bottom: 3px double #000}
+      #kop_header2 {border-bottom: 3px double #000}
+      .border {border-bottom: 1px solid #000}
+      .pos-atas {vertical-align: top}
+      td {vertical-align: top}
+      .f13 {font-size: 13}
+      h4 {text-align: center}
+    </style>
+  </head>
+
+  <body>
+    <h4 class="border">
+      LAPORAN HASIL PEMERIKSAAN <br/>
+      PADA Dinas Pendidikan KECAMATAN  TAHUN 2020    </h4> <br/>   
+
+    <table width="100%" class="border">
+      <tr>
+        <td width="26%"></td>
+        <td width="20%"> Nomor LHP </td>
+        <td width="2%"> : </td>
+        <td> 713/LHP-1-INSPT/2020 </td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td> Tanggal </td>
+        <td> : </td>
+        <td> 24 Agustus 2020 </td>
+      </tr>
+    </table>
+
+  </body>
+</html>
